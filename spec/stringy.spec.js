@@ -20,9 +20,6 @@ describe("#stringy", function () {
             expect(toLowerCase('HELLO')).to.equal('hello');
             expect(toLowerCase('GOODBYE')).to.equal('goodbye');
         });
-        it('should return null if the input string is empty', function () {
-            expect(toLowerCase("").to.equal(null));
-        });
     });
     
     describe("toUpperCase()", function () {

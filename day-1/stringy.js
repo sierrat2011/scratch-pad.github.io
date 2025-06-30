@@ -13,36 +13,27 @@
  * work?
  */
 function length(string) {
-    // YOUR CODE BELOW HERE //
+  // YOUR CODE BELOW HERE //
 
-
-    
-    // YOUR CODE ABOVE HERE //
+  // YOUR CODE ABOVE HERE //
 }
-
-
 
 /**
  * Given an input String, return a new String forced to lowercase.
  */
 function toLowerCase(string) {
-    // YOUR CODE BELOW HERE //
-   
+  // YOUR CODE BELOW HERE //
 
-
-
-    // YOUR CODE ABOVE HERE //
+  // YOUR CODE ABOVE HERE //
 }
 
 /**
  * Given an input String, return a new String forced to uppercase.
  */
 function toUpperCase(string) {
-    // YOUR CODE BELOW HERE //
+  // YOUR CODE BELOW HERE //
 
-
-
-    // YOUR CODE ABOVE HERE //
+  // YOUR CODE ABOVE HERE //
 }
 
 /**
@@ -59,11 +50,9 @@ function toUpperCase(string) {
  *      See: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace#Using_global_and_ignore_with_replace()
  */
 function toDashCase(string) {
-    // YOUR CODE BELOW HERE //
+  // YOUR CODE BELOW HERE //
 
-
-
-    // YOUR CODE ABOVE HERE //
+  // YOUR CODE ABOVE HERE //
 }
 
 /**
@@ -79,11 +68,9 @@ function toDashCase(string) {
  *      ensure uppercase and lowercase can be compared equally?
  */
 function beginsWith(string, char) {
-    // YOUR CODE BELOW HERE //
+  // YOUR CODE BELOW HERE //
 
-    
-
-    // YOUR CODE ABOVE HERE //
+  // YOUR CODE ABOVE HERE //
 }
 
 /**
@@ -99,11 +86,9 @@ function beginsWith(string, char) {
  *      ensure uppercase and lowercase can be compared equally?
  */
 function endsWith(string, char) {
-    // YOUR CODE BELOW HERE //
+  // YOUR CODE BELOW HERE //
 
-
-
-    // YOUR CODE ABOVE HERE //
+  // YOUR CODE ABOVE HERE //
 }
 
 /**
@@ -112,11 +97,9 @@ function endsWith(string, char) {
  * TIP: What's the operator to concatenate two Strings?
  */
 function concat(stringOne, stringTwo) {
-    // YOUR CODE BELOW HERE //
+  // YOUR CODE BELOW HERE //
 
-
-
-    // YOUR CODE ABOVE HERE //
+  // YOUR CODE ABOVE HERE //
 }
 
 /**
@@ -130,11 +113,10 @@ function concat(stringOne, stringTwo) {
  *      in an Array called args.
  */
 function join(stringOne, stringTwo) {
-    // YOUR CODE BELOW HERE //
-    var args = Array.from(arguments);
+  // YOUR CODE BELOW HERE //
+  var args = Array.from(arguments);
 
-
-    // YOUR CODE ABOVE HERE //
+  // YOUR CODE ABOVE HERE //
 }
 
 /**
@@ -147,11 +129,9 @@ function join(stringOne, stringTwo) {
  * TIP: What property of the String do we need to compare?
  */
 function longest(stringOne, stringTwo) {
-    // YOUR CODE BELOW HERE //
+  // YOUR CODE BELOW HERE //
 
-
-
-    // YOUR CODE ABOVE HERE //
+  // YOUR CODE ABOVE HERE //
 }
 
 /**
@@ -162,11 +142,10 @@ function longest(stringOne, stringTwo) {
  * TIP: How can we compare Strings? Is 'a' greater than or less than 'b'?
  */
 function sortAscending(stringOne, stringTwo) {
-    // YOUR CODE BELOW HERE //
+  // YOUR CODE BELOW HERE //
 
-    // YOUR CODE ABOVE HERE //
+  // YOUR CODE ABOVE HERE //
 }
-
 
 /**
  * Given two Strings, return 1 if the first is lower in alphabetical order (meaning later in the alphabet) than
@@ -176,28 +155,26 @@ function sortAscending(stringOne, stringTwo) {
  * TIP: How can we compare Strings? Is 'a' greater than or less than 'b'?
  */
 function sortDescending(stringOne, stringTwo) {
-    // YOUR CODE BELOW HERE //
-
-
-
-
-    // YOUR CODE ABOVE HERE //
+  // YOUR CODE BELOW HERE //
+  
+  // YOUR CODE ABOVE HERE //
 }
 
-
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////
-if((typeof process !== 'undefined') &&
-    (typeof process.versions.node !== 'undefined')) {
-    // here, export any references you need for tests //
-    module.exports.length = length;
-    module.exports.toLowerCase = toLowerCase;
-    module.exports.toUpperCase = toUpperCase;
-    module.exports.toDashCase = toDashCase;
-    module.exports.beginsWith = beginsWith;
-    module.exports.endsWith = endsWith;
-    module.exports.concat = concat;
-    module.exports.join = join;
-    module.exports.longest = longest;
-    module.exports.sortAscending = sortAscending
-    module.exports.sortDescending = sortDescending;
+if (
+  typeof process !== 'undefined' &&
+  typeof process.versions.node !== 'undefined'
+) {
+  // here, export any references you need for tests //
+  module.exports.length = length;
+  module.exports.toLowerCase = toLowerCase;
+  module.exports.toUpperCase = toUpperCase;
+  module.exports.toDashCase = toDashCase;
+  module.exports.beginsWith = beginsWith;
+  module.exports.endsWith = endsWith;
+  module.exports.concat = concat;
+  module.exports.join = join;
+  module.exports.longest = longest;
+  module.exports.sortAscending = sortAscending;
+  module.exports.sortDescending = sortDescending;
 }

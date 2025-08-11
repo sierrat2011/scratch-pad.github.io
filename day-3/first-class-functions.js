@@ -12,8 +12,7 @@
  * base.
  */
 function createGreaterThanFilter(base) {
-  // YOUR CODE BELOW HERE //
-  // YOUR CODE ABOVE HERE //
+  // YOUR CODE HERE
 }
 
 /**
@@ -23,8 +22,7 @@ function createGreaterThanFilter(base) {
  *
  */
 function createLessThanFilter(base) {
-  // YOUR CODE BELOW HERE //
-  // YOUR CODE ABOVE HERE //
+  // YOUR CODE HERE
 }
 
 /**
@@ -35,8 +33,7 @@ function createLessThanFilter(base) {
  * This function needs to be case insensitive.
  */
 function createStartsWithFilter(startsWith) {
-  // YOUR CODE BELOW HERE //
-  // YOUR CODE ABOVE HERE //
+  // YOUR CODE HERE
 }
 
 /**
@@ -47,8 +44,7 @@ function createStartsWithFilter(startsWith) {
  * This function needs to be case insensitive.
  */
 function createEndsWithFilter(endsWith) {
-  // YOUR CODE BELOW HERE //
-  // YOUR CODE ABOVE HERE //
+  // YOUR CODE HERE
 }
 
 /**
@@ -57,10 +53,14 @@ function createEndsWithFilter(endsWith) {
  *
  * TIP: You need to loop over the Strings, right? We need to pass each String to
  * the modify Function, but we need to collect the results into some collection.
+ * 
+ * Examples:
+ * 
+ *    modifyStrings(['a', 'b'], function(string){ return string.toUpperCase() }); // => ['A', 'B']
+ *    modifyStrings(['a', 'b'], function(string){ return string + "!" }); // => ['a!', 'b!']
  */
 function modifyStrings(strings, modify) {
-  // YOUR CODE BELOW HERE //
-  // YOUR CODE ABOVE HERE //
+  // YOUR CODE HERE
 }
 
 /**
@@ -71,10 +71,14 @@ function modifyStrings(strings, modify) {
  * begin with "C", or they are all exclaimations that end with "!".
  *
  * TIP: You need to loop over the Strings, right? And pass them to the test?
+ * 
+ * Examples:
+ * 
+ *    allStringsPass(['a', 'b', 'c'], function(string){ return string.length === 1 }); // => true
+ *    allStringsPass(['a', 'bb', 'c'], function(string) { return string.length === 1}); // => false
  */
 function allStringsPass(strings, test) {
-  // YOUR CODE BELOW HERE //
-  // YOUR CODE ABOVE HERE //
+  // YOUR CODE HERE
 }
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////

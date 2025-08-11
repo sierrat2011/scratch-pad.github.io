@@ -17,8 +17,7 @@
  */
 
 function print(value) {
-  // YOUR CODE BELOW HERE //
-  // YOUR CODE ABOVE HERE //
+  // YOUR CODE HERE
 }
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////

@@ -20,8 +20,7 @@
  */
 
 function reverseString(input) {
-  // YOUR CODE GOES BELOW HERE //
-  // YOUR CODE GOES ABOVE HERE //
+  // YOUR CODE HERE
 }
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////

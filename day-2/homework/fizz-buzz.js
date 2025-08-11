@@ -11,8 +11,7 @@
  *  d. FINALLY, for numbers which are multiples of both three and five print “FizzBuzz”.
  */
 function fizzBuzz() {
-  // YOUR CODE GOES BELOW HERE //
-  // YOUR CODE GOES ABOVE HERE //
+  // YOUR CODE HERE
 }
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////

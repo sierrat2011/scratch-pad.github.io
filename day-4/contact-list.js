@@ -34,9 +34,7 @@
  */
 
 // YOUR CODE GOES BELOW HERE //
-function makeContact(id, nameFirst, nameLast) {
-  
-}
+function makeContact(id, nameFirst, nameLast) {}
 
 function makeContactList() {
   /*
@@ -46,7 +44,6 @@ function makeContactList() {
 
   return {
     // we implemented the length api for you //
-
   };
 }
 

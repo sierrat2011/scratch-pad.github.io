@@ -35,7 +35,6 @@
 
 function greeter(hour) {
   // YOUR CODE BELOW HERE //
-  
   // YOUR CODE ABOVE HERE //
 }
 

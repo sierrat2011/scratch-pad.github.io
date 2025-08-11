@@ -21,7 +21,6 @@
 
 function reverseString(input) {
   // YOUR CODE GOES BELOW HERE //
-  
   // YOUR CODE GOES ABOVE HERE //
 }
 

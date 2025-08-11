@@ -16,7 +16,6 @@
  */
 function isArray(value) {
   // YOUR CODE BELOW HERE //
-
   // YOUR CODE ABOVE HERE //
 }
 
@@ -33,7 +32,6 @@ function isArray(value) {
  */
 function isObject(value) {
   // YOUR CODE BELOW HERE //
-
   // YOUR CODE ABOVE HERE //
 }
 
@@ -45,7 +43,6 @@ function isObject(value) {
  */
 function isCollection(value) {
   // YOUR CODE BELOW HERE //
-
   // YOUR CODE ABOVE HERE //
 }
 
@@ -70,7 +67,6 @@ function isCollection(value) {
  */
 function typeOf(value) {
   // YOUR CODE BELOW HERE //
-  
   // YOUR CODE ABOVE HERE //
 }
 

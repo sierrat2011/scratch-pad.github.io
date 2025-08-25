@@ -12,7 +12,9 @@
  * base.
  */
 function createGreaterThanFilter(base) {
-  // YOUR CODE HERE
+  // YOUR CODE BELOW HERE //
+  
+  // YOUR CODE ABOVE HERE //
 }
 
 /**
@@ -22,7 +24,9 @@ function createGreaterThanFilter(base) {
  *
  */
 function createLessThanFilter(base) {
-  // YOUR CODE HERE
+  // YOUR CODE BELOW HERE //
+  
+  // YOUR CODE ABOVE HERE //
 }
 
 /**
@@ -33,7 +37,9 @@ function createLessThanFilter(base) {
  * This function needs to be case insensitive.
  */
 function createStartsWithFilter(startsWith) {
-  // YOUR CODE HERE
+  // YOUR CODE BELOW HERE //
+
+  // YOUR CODE ABOVE HERE //
 }
 
 /**
@@ -44,7 +50,9 @@ function createStartsWithFilter(startsWith) {
  * This function needs to be case insensitive.
  */
 function createEndsWithFilter(endsWith) {
-  // YOUR CODE HERE
+  // YOUR CODE BELOW HERE //
+
+  // YOUR CODE ABOVE HERE //
 }
 
 /**
@@ -54,14 +62,20 @@ function createEndsWithFilter(endsWith) {
  * TIP: You need to loop over the Strings, right? We need to pass each String to
  * the modify Function, but we need to collect the results into some collection.
  * 
- * Examples:
+ * examples:
  * 
- *    modifyStrings(['a', 'b'], function(string){ return string.toUpperCase() }); // => ['A', 'B']
- *    modifyStrings(['a', 'b'], function(string){ return string + "!" }); // => ['a!', 'b!']
+ *    modifyStrings(['a', 'b', 'c'], function(str) { return str.toUpperCase() });
+ *    // returns => ['A', 'B', 'C']
+ * 
+ *    modifyString(['a', 'b'], function(str){ return str + "!" });
+ *    // returns => ['a!', 'b!']
  */
 function modifyStrings(strings, modify) {
-  // YOUR CODE HERE
+  // YOUR CODE BELOW HERE //
+
+  // YOUR CODE ABOVE HERE //
 }
+
 
 /**
  * Given an Array of Strings and a Function designed to test the String in some
@@ -72,13 +86,20 @@ function modifyStrings(strings, modify) {
  *
  * TIP: You need to loop over the Strings, right? And pass them to the test?
  * 
- * Examples:
+ * examples:
  * 
- *    allStringsPass(['a', 'b', 'c'], function(string){ return string.length === 1 }); // => true
- *    allStringsPass(['a', 'bb', 'c'], function(string) { return string.length === 1}); // => false
+ *    allStringsPass(['a', 'b', 'c'], function(str) { return str.length === 1 });
+ *    // returns => true
+ * 
+ *    allStringsPass(['a', 'bb', 'c'], function(str) { return string.length === 1 });
+ *    // returns => false
  */
+
+
 function allStringsPass(strings, test) {
-  // YOUR CODE HERE
+  // YOUR CODE BELOW HERE //
+
+  // YOUR CODE ABOVE HERE //
 }
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////

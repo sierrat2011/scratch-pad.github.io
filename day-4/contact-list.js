@@ -13,7 +13,7 @@
  *  b. Create a factory Function called makeContactList that returns an Object
  *     that manages contacts. The contact-list object should have the following methods:
  *
- *      1. length(): returns the number of contacts within the list.
+ *      1. length(): returns the number of contacts within the list. (the list is `contacts`)
  *      2. addContact(contact): takes a contact object to be added to the
  *         contact-list.
  *      3. findContact(fullName): takes a full-name String, like 'Max Gaudin', and
@@ -33,8 +33,9 @@
  *          new-line character added after it!
  */
 
-// YOUR CODE GOES BELOW HERE //
-function makeContact(id, nameFirst, nameLast) {}
+function makeContact(id, nameFirst, nameLast) {
+  // Solve this function first
+}
 
 function makeContactList() {
   /*
@@ -44,10 +45,11 @@ function makeContactList() {
 
   return {
     // we implemented the length api for you //
-  };
+    length: function(){
+      return contacts.length;
+    },
+  }
 }
-
-// YOUR CODE GOES ABOVE HERE //
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////
 if (

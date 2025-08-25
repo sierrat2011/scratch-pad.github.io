@@ -16,6 +16,7 @@
  */
 function isArray(value) {
   // YOUR CODE BELOW HERE //
+
   // YOUR CODE ABOVE HERE //
 }
 
@@ -29,9 +30,13 @@ function isArray(value) {
  *
  * HINT: look up how to figure out if something is an instance of the Date object.
  *
+ * isObject({ a: 1, b: 2 }); // true
+ * isObject([1, 2, 3]); // false
+ * 
  */
 function isObject(value) {
   // YOUR CODE BELOW HERE //
+  
   // YOUR CODE ABOVE HERE //
 }
 
@@ -43,6 +48,7 @@ function isObject(value) {
  */
 function isCollection(value) {
   // YOUR CODE BELOW HERE //
+
   // YOUR CODE ABOVE HERE //
 }
 
@@ -67,6 +73,7 @@ function isCollection(value) {
  */
 function typeOf(value) {
   // YOUR CODE BELOW HERE //
+  
   // YOUR CODE ABOVE HERE //
 }
 

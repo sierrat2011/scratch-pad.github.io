@@ -2,6 +2,8 @@
 
 'use strict';
 
+const { truncate } = require("lodash");
+
 /**
  * IN CLASS EXERCISE: stringy.js
  */
@@ -59,6 +61,7 @@ return string.toUpperCase()
  */
 function toDashCase(string) {
   // YOUR CODE BELOW HERE //
+return string.toLowerCase().split(' ').join('-');
 
   // YOUR CODE ABOVE HERE //
 }
@@ -77,7 +80,11 @@ function toDashCase(string) {
  */
 function beginsWith(string, char) {
   // YOUR CODE BELOW HERE //
-
+if (string[0].toLowerCase() === char.toLowerCase()) {
+  return true
+} else {
+  return false
+}
   // YOUR CODE ABOVE HERE //
 }
 
@@ -95,7 +102,11 @@ function beginsWith(string, char) {
  */
 function endsWith(string, char) {
   // YOUR CODE BELOW HERE //
-
+if (string[string.length-1].toLowerCase() === char.toLowerCase()) {
+  return true
+} else {
+  return false
+}
   // YOUR CODE ABOVE HERE //
 }
 
@@ -106,7 +117,7 @@ function endsWith(string, char) {
  */
 function concat(stringOne, stringTwo) {
   // YOUR CODE BELOW HERE //
-
+return stringOne + stringTwo
   // YOUR CODE ABOVE HERE //
 }
 
@@ -138,7 +149,11 @@ function join(stringOne, stringTwo) {
  */
 function longest(stringOne, stringTwo) {
   // YOUR CODE BELOW HERE //
-
+if (stringOne.length > stringTwo.length) {
+  return stringOne
+} else {
+  return stringTwo
+}
   // YOUR CODE ABOVE HERE //
 }
 

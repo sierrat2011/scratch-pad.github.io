@@ -2,8 +2,6 @@
 
 'use strict';
 
-const { truncate } = require("lodash");
-
 /**
  * IN CLASS EXERCISE: stringy.js
  */
@@ -24,7 +22,7 @@ E:
 
 function length(string) {
   // YOUR CODE BELOW HERE //
-return string.length;
+return string.length
   // YOUR CODE ABOVE HERE //
 }
 
@@ -33,7 +31,8 @@ return string.length;
  */
 function toLowerCase(string) {
   // YOUR CODE BELOW HERE //
-return string.toLowerCase()
+  var newStr = string.toLowerCase();
+return newStr;
   // YOUR CODE ABOVE HERE //
 }
 
@@ -42,7 +41,8 @@ return string.toLowerCase()
  */
 function toUpperCase(string) {
   // YOUR CODE BELOW HERE //
-return string.toUpperCase()
+  var newStr = string.toUpperCase();
+  return newStr;
   // YOUR CODE ABOVE HERE //
 }
 
@@ -61,10 +61,10 @@ return string.toUpperCase()
  */
 function toDashCase(string) {
   // YOUR CODE BELOW HERE //
-return string.toLowerCase().split(' ').join('-');
-
+  return string.toLowerCase().split(' ').join('-');
   // YOUR CODE ABOVE HERE //
 }
+toDashCase('this is my string')
 
 /**
  * Given an input String and a single character, return true if the String
@@ -80,6 +80,7 @@ return string.toLowerCase().split(' ').join('-');
  */
 function beginsWith(string, char) {
   // YOUR CODE BELOW HERE //
+
 if (string[0].toLowerCase() === char.toLowerCase()) {
   return true
 } else {
@@ -102,11 +103,11 @@ if (string[0].toLowerCase() === char.toLowerCase()) {
  */
 function endsWith(string, char) {
   // YOUR CODE BELOW HERE //
-if (string[string.length-1].toLowerCase() === char.toLowerCase()) {
-  return true
-} else {
-  return false
-}
+  if (string[string.length-1].toLowerCase() === char.toLowerCase()) {
+    return true
+  } else {
+    return false
+  }
   // YOUR CODE ABOVE HERE //
 }
 
@@ -134,7 +135,7 @@ return stringOne + stringTwo
 function join(stringOne, stringTwo) {
   // YOUR CODE BELOW HERE //
   var args = Array.from(arguments);
-  return args.join('');
+return args.join('')
   // YOUR CODE ABOVE HERE //
 }
 
@@ -166,13 +167,13 @@ if (stringOne.length > stringTwo.length) {
  */
 function sortAscending(stringOne, stringTwo) {
   // YOUR CODE BELOW HERE //
-if (stringOne === stringTwo) {
-  return 0
-} else if (stringOne.localeCompare(stringTwo, 'en') === 1) {
-  return -1
-} else {
-  return 1
-}
+  if (stringOne === stringTwo) {
+    return 0
+  } else if (stringOne.localeCompare(stringTwo, 'en') === 1) {
+    return -1
+  } else {
+    return 1
+  }
   // YOUR CODE ABOVE HERE //
 }
 

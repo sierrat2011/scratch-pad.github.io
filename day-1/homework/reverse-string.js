@@ -21,7 +21,10 @@
 
 function reverseString(input) {
   // YOUR CODE BELOW HERE //
-
+var stringReversed
+for (var i = 0; i < input.length; i--) {
+  stringReversed.push(i)
+}
   // YOUR CODE ABOVE HERE //
 }
 

@@ -35,7 +35,11 @@ function printArrayValuesInReverse(array) {
  */
 function getObjectKeys(object) {
   // YOUR CODE BELOW HERE //
-
+  var holder = [];
+  for (var key in object) {
+    holder.push(key);
+  }
+    return holder;
   // YOUR CODE ABOVE HERE //
 }
 
@@ -45,7 +49,10 @@ function getObjectKeys(object) {
  */
 function printObjectKeys(object) {
   // YOUR CODE BELOW HERE //
-
+  for (var key in object) {
+    console.log(key) // I actually dont think this is right.
+  }                  // on codepen it's still giving me an array.
+                     // that is not what I was predicting. 
   // YOUR CODE ABOVE HERE //
 }
 
@@ -54,7 +61,11 @@ function printObjectKeys(object) {
  */
 function getObjectValues(object) {
   // YOUR CODE BELOW HERE //
-
+  var holder = []
+  for (var key in object) {
+    holder.push(Object.values(object));
+  }
+    return holder
   // YOUR CODE ABOVE HERE //
 }
 
@@ -64,7 +75,9 @@ function getObjectValues(object) {
  */
 function printObjectValues(object) {
   // YOUR CODE BELOW HERE //
-
+  for (var key in object) {
+    console.log(Object.values(object)) 
+}
   // YOUR CODE ABOVE HERE //
 }
 

@@ -86,7 +86,8 @@ function printObjectValues(object) {
  */
 function getObjectLength(object) {
   // YOUR CODE BELOW HERE //
-
+  var numberOf = Object.keys(object).length
+  console.log(numberOf)
   // YOUR CODE ABOVE HERE //
 }
 
@@ -96,7 +97,10 @@ function getObjectLength(object) {
  */
 function printObjectValuesInReverse(object) {
   // YOUR CODE BELOW HERE //
-  
+  var objVals = Object.values(object);
+  for (var i = objVals.length - 1; i >= 0; i--) {
+    console.log(objVals[i]);
+  }
   // YOUR CODE ABOVE HERE //
 }
 

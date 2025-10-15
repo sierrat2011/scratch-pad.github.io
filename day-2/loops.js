@@ -62,10 +62,10 @@ function printObjectKeys(object) {
 function getObjectValues(object) {
   // YOUR CODE BELOW HERE //
   var holder = []
-  for (var key in object) {
-    holder.push(Object.values(object));
-  }
-    return holder
+  for (var key in object) {         // i think the results are saying I have an arr inside of an arr
+  }                                 // expected [[ '1', '2, ']] to deeply equal ['1', '2', '3']
+   holder.push(Object.values(object));  // idk why this is, not sure how a 2nd arr is happening
+   return holder;
   // YOUR CODE ABOVE HERE //
 }
 
@@ -76,8 +76,8 @@ function getObjectValues(object) {
 function printObjectValues(object) {
   // YOUR CODE BELOW HERE //
   for (var key in object) {
-    console.log(Object.values(object)) 
-}
+    console.log(object[key]);
+  }
   // YOUR CODE ABOVE HERE //
 }
 
@@ -87,7 +87,7 @@ function printObjectValues(object) {
 function getObjectLength(object) {
   // YOUR CODE BELOW HERE //
   var numberOf = Object.keys(object).length
-  console.log(numberOf)
+  return numberOf
   // YOUR CODE ABOVE HERE //
 }
 

@@ -44,7 +44,7 @@ function createStartsWithFilter(startsWith) {
   // YOUR CODE BELOW HERE //
   return function(string) {
     return string[0].toLowerCase() === startsWith.toLowerCase();
-  } // I think this should be right, I tested it on Codepen and it works
+  } 
 
   // YOUR CODE ABOVE HERE //
 }

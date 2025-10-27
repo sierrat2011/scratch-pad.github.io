@@ -96,12 +96,19 @@ function makeContactList() {
       }
       }
       return undefined
-    }
-  }, 
+    }, 
   removeContact: function (contact) {
-    
+
+  },
+  printAllContactNames: function() {
+    var list = []
+    for (var i = 0; i < contacts.length; i++) {
+      var name = contacts[i].nameFirst + ' ' + contacts[i].nameLast
+      list.push(name)
+    }
+    return list.join('\n')
   }
-  
+}
 }
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////

@@ -66,11 +66,11 @@
 
 function makeContact(id, nameFirst, nameLast) {
   // Solve this function first
-  var holderObj = {}
-  holderObj.id = id;
-  holderObj.nameFirst = nameFirst;
-  holderObj.nameLast = nameLast;
-  return holderObj
+  var contactObj = {}
+  contactObj.id = id;
+  contactObj.nameFirst = nameFirst;
+  contactObj.nameLast = nameLast;
+  return contactObj
 }
 
 function makeContactList() {
@@ -84,20 +84,24 @@ function makeContactList() {
     length: function(){
       return contacts.length;
     },
-  }
-}
-function makeContactList() {
-  /*
-   * You need something here to hold contacts. See length api for a hint:
-   */
-  var contacts = [];
-
-  return {
-    // we implemented the length api for you //
-    length: function(){
-      return contacts.length;
+    addContact: function(contact) {
+      contacts.push(contact)
     },
+    findContact: function(string) {
+      for (var i = 0; i < contacts.length; i++) {
+        var name = contacts[i].nameFirst + ' ' + contacts[i].nameLast
+      if (name === string) {
+        return contacts[i]
+      } else {
+      }
+      }
+      return undefined
+    }
+  }, 
+  removeContact: function (contact) {
+    
   }
+  
 }
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////
